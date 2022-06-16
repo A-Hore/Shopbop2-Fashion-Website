@@ -1,0 +1,436 @@
+#logo{
+    display: block;
+    /* border: 1px solid red; */
+    height: 10%;
+    width: 10%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#upper{
+  
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+select{
+    border: 0px;
+    font-size: 16px;
+}
+#bag{
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin: auto;
+    margin-right: -60px;
+    margin-top: -27px;
+  
+}
+#heart{
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin: auto;
+    margin-right: -30px;
+    margin-top: -40px;
+
+}
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 65%;
+    
+    margin: auto;
+    font-size: 15px;
+    color: grey;
+    font-family: sans-serif;
+}
+#nav2>div:last-child>img{
+   
+    display: block;
+    height: 18px ;
+    width: 18px;
+}
+#adv{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid red; */
+}
+#adv>img{
+    display: block;
+    height: 100%;
+    width: 100%;
+
+}
+#adv+h2{
+    text-align: center;
+    font-family: GTAmerica, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: condensed;
+    color: black;
+    margin-top: 60px;
+    line-height: -200px;
+}
+#adv+h2+h1{
+    text-align: center;
+    font-family: GTAmerica, "Helvetica Neue", Helvetica, sans-serif;
+   margin-top: -10px;
+}
+#namelogin{
+    display: inline-block;
+    text-decoration: none;
+    margin-top:0px ;
+    color: black;
+}
+#suit{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    /* border: 1px solid red; */
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+#suit>div{
+    width: 24%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+#suit>div>img{
+    display: block;
+    height: 90%;
+    width: 100%;
+}
+#suit>div>p{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#disp{
+   
+    margin: auto;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(242,243,240);
+    margin-top: 80px;
+   
+
+}
+#disp1{
+    /* border: 1px solid red; */
+    width: 74%;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+#disp1>div{
+    width: 19%;
+    /* border: 1px solid green; */
+    height: 100%;
+}
+#disp1>div>img{
+    display: block;
+    width: 100%;
+    height: 80%;
+}
+#disp1>div>img+p{
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+  margin-top: 20px;
+}
+#disp1>div>img+p+p{
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 5px;
+
+}
+#disp1>div>img+p+p+p{
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 5px;
+
+}
+#btn1{
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    margin-top: -60px;
+   margin-right: -25px;
+    border-radius: 40px;
+    background-color: rgb(239,75,27);
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    border: 0px;
+    z-index: 5;
+}
+#disp1>#btn2{
+    display: inline-block;
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+   margin-left: -25px;
+   
+    margin-top: -60px;
+
+    border-radius: 40px;
+    background-color: rgb(239,75,27);
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    border: 0px;
+
+}
+#data{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100px;
+  
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: -50px;
+   
+}
+#data>p{
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 0.25em;  
+    font-weight: bolder;
+   
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-left: 200px;
+  
+   
+   
+  
+   
+}
+#data>h1{
+    font-family: sans-serif;
+    margin: auto;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+#foryou{
+    display: flex;
+    width: 80%;
+    /* height: 800px; */
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    margin: auto;
+    margin-top: 60px;
+
+}
+#foryou>div{
+    width: 23%;
+    /* height: 500px; */
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+
+}
+#foryou>div>img{
+    display: block;
+    width: 100%;
+    height: 400px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    /* border: 1px solid red; */
+
+}
+#foryou>div>img+p{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 14px;
+}
+#foryou>div>img+p+h5+p{
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(17, 7, 7);
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -15.7px;
+}
+#foryou>div>img+p+h5{
+    color: black;
+    font-family: sans-serif;
+    margin: auto;
+    margin-left: 110px;
+    font-weight: bold;
+}
+#foryou>div>img+p+h5+p+button{
+    display: block;
+    padding: 10px 90px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: rgb(238,74,27);
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+}
+#foryou>div>img+p+h5+p+button:hover{
+     color: white;
+     background-color:  rgb(235, 132, 103) ;
+}
+#pgno{
+    margin: auto;
+    margin-top: 50px;
+    width: 20%;
+    height: 40px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#pgno>div{
+    /* border: 1px solid green; */
+    width: 12%;
+    height: 80%;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:100px;
+ 
+    background-color: rgb(238,74,27);
+}
+#pgno>div:nth-child(3){
+    background-color: white;
+    color: rgb(238,74,27);
+    border: 1px solid rgb(238,74,27);
+}
+#pgno>div:nth-child(1){
+    background-color: white;
+    color: rgb(238,74,27);
+    border: 1px solid rgb(238,74,27);
+}
+
+#pgno>div:nth-child(4){
+    background-color: white;
+    color: rgb(238,74,27);
+    border: 1px solid rgb(238,74,27);
+}
+
+#pgno>div:nth-child(5){
+    background-color: white;
+    color: rgb(238,74,27);
+    border: 1px solid rgb(238,74,27);
+}
+
+#pgno>div:nth-child(6){
+    background-color: white;
+    color: rgb(238,74,27);
+    border: 1px solid rgb(238,74,27);
+}
+
+#pgno>div:nth-child(7){
+    background-color: white;
+    color: rgb(238,74,27);
+    border: 1px solid rgb(238,74,27);
+}
+
+#bottom{
+    width: 60%;
+    /* border: 1px solid red; */
+    height: 170px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+#bottom>div{
+    /* border: 1px solid green; */
+    width: 18%;
+    height: 100%;
+    text-align: left;
+    
+}
+#bottom>div>p{
+    text-align: center;
+    font-weight: 900;
+    font-size: 11px;
+    letter-spacing: .5px;
+    font-family: sans-serif;
+    text-align: left;
+
+}
+#bottom>div>p+p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: .15px;
+    text-align: left;
+}
+#info{
+    margin: auto;
+    margin-top: 58px;
+    /* border: 1px solid red; */
+    width: 60%;
+    text-align:center ;
+    display: flex;
+    flex-direction: column;
+    
+}
+#info>div:nth-child(1){
+font-weight: 500;
+font-size: 14px;
+font-family: sans-serif;
+color: black;
+line-height: 26px;
+}
+#info>div:nth-child(2){
+    font-size: 14px;
+    line-height: 26px;
+    font-family: sans-serif;
+}
+#sortprice{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    background-color: rgb(238,74,27);
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+
+
+
+

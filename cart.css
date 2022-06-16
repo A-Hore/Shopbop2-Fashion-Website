@@ -1,0 +1,351 @@
+#logo{
+    display: block;
+    /* border: 1px solid red; */
+    height: 10%;
+    width: 10%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#upper{
+  
+    height: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+select{
+    border: 0px;
+    font-size: 16px;
+}
+#bag{
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin: auto;
+    margin-right: -60px;
+    margin-top: -27px;
+  
+}
+
+#heart{
+    display: block;
+    height: 25px;
+    width: 25px;
+    margin: auto;
+    margin-right: -30px;
+    margin-top: -40px;
+
+}
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 65%;
+    
+    margin: auto;
+    font-size: 15px;
+    color: grey;
+}
+#search>img{
+   
+    display: block;
+    height: 18px ;
+    width: 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#namelogin{
+    display: inline-block;
+    text-decoration: none;
+    margin-top:-15px ;
+}
+#bag1{
+    width: 35%;
+    height: 60px ;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+   padding-top: 20px;
+}
+#bag1>div:nth-child(1){
+    width: 14%;
+    height: 100%;
+    /* border: 1px solid green; */
+   
+}
+#bag1>div:nth-child(2){
+    width: 85%;
+    height: 100%;
+    
+    /* border: 1px solid green; */
+   
+}
+#bag1>div>img{
+    display: block;
+    height: 80%;
+    width: 80%;
+    margin-right: 10px;
+}
+#bag1>div>h2{
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+#bag1>div>h2+p{
+    margin-top: -10px;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+#back{
+    background-color: rgb(248,249,248);
+    height: 700px;
+    /* border: 1px solid red; */
+}
+#proddisp{
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    overflow: scroll;
+   
+
+}
+#proddisp::-webkit-scrollbar {
+    display: none;
+}
+#proddisp{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+#proddisp>div{
+    width: 70%;
+    height: 200px;
+    /* border: 1px solid green; */
+    margin-top: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+#proddisp>div>img{
+    display: block;
+    height: 90%;
+    width: 20%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border-radius: 15px; */
+   
+}
+#proddisp>div>img+p{
+   font-size: 14px;
+    margin-top: -180px;
+    margin-left: 140px;
+    font-family: sans-serif;
+    
+}
+#proddisp>div>img+p+h5{
+   color: black;
+    margin-left: 156px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -5px;
+}
+#proddisp>div>img+p+h5+p{
+    margin-left:169px ;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: -43px;
+}
+#proddisp>div>img+p+h5+p+button{
+    margin-left: 400px;
+    margin-top: 60px;
+    padding: 8px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(239,75,27);
+    color: white;
+
+}
+#summary{
+    width: 20%;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-left: 900px;
+    margin-top: -550px;
+    font-family: sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#summary>h2{
+    font-size: 18px;
+}
+#summary>p:first-child{
+    font-size: 14px;
+    color: red;
+}
+
+#free{
+    margin-left: 260px;
+  font-weight: bold;
+    font-size: 14px;
+    margin-top: -30px;
+}
+#labnam{
+   
+    font-size: 14px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+input{
+  
+    margin-top: 10px;
+    padding: 10px 5px 10px 5px;
+
+}
+button{
+    margin-top: 20px;
+    padding: 10px 5px 10px 5px;
+    background-color:rgb(219,59,20);
+    border: 0px;
+    color: white;
+}
+#summary>h3{
+    font-weight: bold;
+    margin-top: 5px;
+}
+#summary>h3+div{
+    width: 23%;
+    height: 30px;
+    /* border: 1px solid green; */
+    margin-left: 230px;
+    margin-top: -40px;
+    text-align: center;
+    font-weight: bold;
+   font-family: sans-serif;
+}
+#summary>h3+div+button{
+    padding: 10px 5px 10px 5px;
+    background-color:rgb(219,59,20);
+    border: 0px;
+    color: white; 
+    font-weight: bold;
+    font-size: 16px;
+}
+#payopt{
+    width: 20%;
+    height: 30px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 910px;
+}
+#payopt+p{
+    margin-left: 930px;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+}
+#promo{
+    text-transform: uppercase
+}
+#bottom{
+    width: 60%;
+    /* border: 1px solid red; */
+    height: 170px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+#bottom>div{
+    /* border: 1px solid green; */
+    width: 18%;
+    height: 100%;
+    text-align: left;
+    
+}
+#bottom>div>p{
+    text-align: center;
+    font-weight: 900;
+    font-size: 11px;
+    letter-spacing: .5px;
+    font-family: sans-serif;
+    text-align: left;
+
+}
+#bottom>div>p+p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: .15px;
+    text-align: left;
+}
+#info{
+    margin: auto;
+    margin-top: 58px;
+    /* border: 1px solid red; */
+    width: 60%;
+    text-align:center ;
+    display: flex;
+    flex-direction: column;
+    
+}
+#info>div:nth-child(1){
+font-weight: 500;
+font-size: 14px;
+font-family: sans-serif;
+color: black;
+line-height: 26px;
+}
+#info>div:nth-child(2){
+    font-size: 14px;
+    line-height: 26px;
+    font-family: sans-serif;
+}
+#prodtotal{
+    width: 10%;
+    height: 20px;
+    /* border: 1px solid red; */
+    margin-left: 290px;
+    margin-top: -37px;
+    font-weight: bold;
+}
+#ptot{
+    font-weight: bold;
+}
+#checkout>a{
+    color: white;
+}
+#labnam+p{
+    font-size: 10px;
+    margin-left: 30%;
+    margin-top: -12px;
+}
+
+
